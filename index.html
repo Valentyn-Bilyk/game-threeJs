@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./static/styles/main.css" />
+  </head>
+  <body style="background-color: cornflowerblue">
+    <div class="game-start start-text">
+      <title>Three.js Game</title>
+
+      <button class="start">Start game</button>
+    </div>
+
+    <div class="game-over">
+      <title>Game over</title>
+
+      <p class="total"></p>
+
+      <button class="reload">restart</button>
+    </div>
+
+    <p class="rules">
+      Forward - W <br />
+      Back - S <br />
+      Left - A <br />
+      Right - D
+    </p>
+
+    <div class="time"></div>
+
+    <canvas class="canvas"></canvas>
+    <script src="./public/bundle.js"></script>
+  </body>
+</html>
+
